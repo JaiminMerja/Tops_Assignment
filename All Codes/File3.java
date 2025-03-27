@@ -25,7 +25,7 @@ public class File3
 {
     public static void main(String[] args) 
     {
-        String s = "f3.text";
+        String s = "f3.txt";
         Person p = new Person("Jimmy",22);
 
         try(ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(s)))
