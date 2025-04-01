@@ -1,0 +1,767 @@
+Module 1
+
+1 Introduction to Java
+
+  
+* History of Java
+
+  Before Java was named it was called "OAK" which was developed in 1991 by       
+  James Goasling and it was a console app with single user only.
+
+  Then in 1995 it was name as Java by James Goasling and it was a console
+  and Desktop app with Multiuser.
+
+* Features of Java
+  
+  1)Simple
+  2)Object Oriented
+  3)Interpreter
+  4)Robust
+  5)Secure
+  6)Dynamic
+  7)High Performance
+  8)Multithreading
+  9)Platform Independent
+  10)Portable
+
+
+* Understanding
+
+  1)JVM [Java Virtual Machine] 
+
+  A virtual machine that enables computers to run Java programs and other     
+  languages compiled to Java bytecode.
+  It provides a platform-independent execution environment.
+
+  2)JRE [Java Runtime Environment]
+
+  A package that provides the libraries, Java Virtual Machine (JVM), and    
+  other components necessary to run applications written in Java.
+  It does not include development tools like compilers or debuggers.
+
+  3)JDK [Java Development Kit]
+
+  A software development kit used to develop Java applications and applets.
+  It includes the JRE, an interpreter/loader, a compiler
+
+
+* Java Program Structure
+
+  1)Packages
+
+  A namespace that organizes a set of related classes and interfaces. 
+
+  2)Classes
+
+  A class is a blueprint for creating objects.
+  It contains variables and methods (functions).
+
+  3)Methods
+
+  A method defines a specific behavior of a class.
+  It can take parameters and return values.
+
+
+2 Data Types, Variables and Operators
+
+* Primitive Data Types
+
+  It means Fixed sizes of Data
+
+  1)byte
+  2)short
+  3)int
+  4)long
+  5)float
+  6)double
+  7)char
+  8)Boolean
+
+
+* Variable 
+
+  It means to store some value.
+
+  1)Declaration
+
+  Allocating Memory for variable.
+
+  2)Initialization
+
+  Assigning a value to a variable
+
+
+* Operators
+
+  It perform operation on variable and values
+
+  1)Arithmetic Operators
+
+  Used for Maths Operation
+  [Addition, Subtraction, Multiplication, Division, Modulus]
+
+  2)Relation Operators
+
+  Used for compare values
+  [==, !=, >, <, >=, <=]
+
+  3)Logical Operators
+
+  Used for logical operations
+  [&&, ||, !]
+
+  4)Assignment Operators
+
+  Used to assign values to variables
+  [=, +=, -=, *=, /=, %=]
+
+  5)Unary Operators
+
+  Operate on a single operand
+  [+, -, ++, --]
+
+  6)Bitwise Operators
+
+  Operate to the bit level
+  [&, |, ^, ~, <<, >>]	
+
+
+* Type Conversion and Type Casting
+
+  Convert one data type to other data type
+  
+  1)Implicit Type Conversion
+
+  Convert from smaller data type in size convert into bigger Data type
+ 
+  2)Explicit Type Conversion
+
+  convert from bigger data type in size convert into smaller Data type
+
+
+3 Control Flow Statements
+
+  1)If
+
+  If the condition is true than "if" block will be executed otherwise    
+  nothing
+
+  2)If-Else
+
+  The if-else statement allows Java to execute different blocks of code 
+  based on conditions
+
+  3)Switch Case Statement
+
+  The switch statement is used when multiple conditions are checked against 
+  the same variable
+
+  4)Loops
+
+  Loops allow code to be executed multiple times
+
+     A)For Loop
+
+     Used when the number of iterations is known
+
+     B)While Loop
+
+     Used when the number of iterations is unknown but depends on a 
+     condition
+
+     C)Do-While Loop
+
+     Executes at least once, even if the condition is false
+
+   5) Break and Continue
+     
+     A)Break
+
+     Used to exit a loop or switch statement immediately
+    
+     B)Continue
+
+     Skips the current iteration and moves to the next
+
+
+4 Classes and Object
+    
+     A)Class 
+
+     A class is the collection of data member, member function and its behavior
+
+     B)Object
+
+     A object is the instance of a class
+
+* Constructors
+
+  It is called when any object is created and is a special member function 
+  because it has same class name.
+
+* Overloading
+
+  It means that multiple method in the same class have the same name but
+  different parameter.
+
+* Object Creation
+ 
+  It is an instance of a class that has its own identity, state and behaviour.
+
+* Accessing Member of a class
+
+  We can access member of a class by:
+  
+  A) .fieldname and .methodName
+
+  B) this keyword
+
+  C) static keyword
+
+* this keyword
+
+  It refer to current instance of the class.
+
+
+5) Method in Java
+
+* Defining Method
+ 
+  A collection of statement grouped together to perform an operation.
+
+* Method Parameter and Return types
+
+  Methods can have multiple parameters, the datatype and order must be
+  specified in the method declaration.
+  Methods can have return types like int, string, double, etc
+
+* Static Methods
+
+  It is declared with static keyword and can be called without creating
+  an object.
+
+* Static Variable
+
+  It is declared with static keyword and shared among all objects of 
+  class.
+
+
+6) Object-Oriented Programming System (OOPs) Concepts
+
+* Basic of OOP
+
+  A)Encapsulation
+  
+  Wrapping of Data into Single unit.
+
+  B)Inheritance
+
+  Properties are inherits from parent class to child class.
+  
+  Types of inheritance
+     
+     1)Single
+
+     one parent class have one child class
+  
+     2)Multilevel
+
+     one grand parent class have one parent class that have 
+     one child class
+
+     3)Hierarchical
+ 
+     Multiple child class inherit from parent class
+
+     4)Multiple
+     
+     Java does not support this but can be achieved by interface
+
+     5)Hybrid
+  
+     Java Does not support this but can be achieved by Interface
+
+  C)Polymorphism
+
+  Ability to take one name have many form or different forms
+
+  Types of Polymorphism
+
+    1)Overloading (Run-Time) 
+
+    It means that multiple method in the same class have the same name but
+    different parameter
+
+    2)Overriding (Compile-Time)
+  
+    Child class provides its own implementation of a parent class method
+
+  D)Abstraction
+
+  Hiding important details and showing functionality to user
+
+  It is achieved by
+
+    1)Abstract class
+    2)Interface
+
+* Method Overriding
+
+  Child class provides its own implementation of a parent class method
+
+* Dynamic Method Dispatch (Runtime Polymorphism)
+
+  It allows a superclass reference to refer to a subclass object
+
+
+7) Constructors and Destructors
+
+  A)Constructor
+
+  It is special member function as its same name as class name
+
+  It types are
+
+    1)Default
+
+    It means that there is no argument
+
+    2)Parameterized
+
+    It means that there are one or more argument
+
+    3)Copy
+   
+    It means that a new object created and copied by existing object
+
+* Constructor Overloading
+
+  It means multiple constructor are defined with different parameters
+
+* Object life Cycle
+
+  An object in java has several stages 
+
+    1)Object Creation
+    2)Object in use
+    3)Object becomes unreachable
+    4)Garbage Collection
+
+* Garbage Collection
+
+  Java automatically manages memory using the garbage collector
+  which removes objects that are no longer needed
+
+
+8) Arrays and Strings
+
+  A) One-Dimensional Arrays
+  
+  In this at a one time there will be only one loop use.
+
+  B) Multidimensional Arrays
+
+  In this at a one time more than one loop can be used.
+
+* String handling in Java
+
+  A) String Class
+
+  Sequence of characters in a object and it is immutable
+
+  B) String Buffer
+
+  Mutable Sequence of characters and is a synchronized
+
+  C) String Builder
+
+  Mutable Sequence of characters and is a not synchronized
+
+* Arrays of Objects
+
+  It is a data structure where each element in the array is an object
+
+* String Methods
+
+    1) .length()-Returns the length in the string
+
+    2) .charAt(Index)-Returns the character at specified index
+
+    3) .substring(start, endindex)-Returns a substring from the given 
+       start index and end index
+
+    4) .equals(str)-Checks if 2 string are equal
+
+    5) .contains(substring)-Checks if the string contains a specific
+       sequence of characters
+
+    6) .startsWith(prefix) & endsWith(suffix)-checks if the string
+       starts or ends with a specific substring
+
+    7) .toUpperCase() & .toLowerCase()-Converts the string to
+       uppercase and lowercase
+
+    8) .trim()-Removes leading and trailing spaces from the string
+
+    9) .replace & .replaceAll-Replaces occurences of character
+       or substring
+
+   10) .split-Splits the string into array using specified delimiter
+
+   11) .indexof() & lastIndexof(str)-Finds the index of first or last
+       occurrence of character or substring
+
+   12) .concat()-Joins 2 String together
+
+   13) .valueof(datatype)-Converts different types to a string
+
+
+9) Inheritance and Polymorphism
+
+* Super keyword
+
+  The super keyword is used to refer to the parent class.
+  It mainly used for accessing superclass's constructor, 
+  calling superclass methods that have been overridden
+
+* Method Hiding in java
+
+  It occurs when a static method in the child class has 
+  same signatures as a static method in the parent class
+
+10) Interfaces and Abstract Class
+
+* Abstract Class
+
+  It is a class that cannot be instantiated and is meant to be
+  extended by subclasses
+
+* Abstract Methods
+
+  A method without a body is called abstract method
+
+* Interface: Multiple Inheritance
+
+  It means same as class, it is a collection of data member and 
+  member function
+  data members are final or static by default
+  member functions are abstract by default
+
+
+11)Packages and Access Modifier
+
+* Java Packages
+ 
+   1) Built-in Packages
+
+      Java provides many predefined packages like
+ 
+         A)java.lang-Contains String, Math, System, etc
+
+         B)java.util-Provides Arraylist, HashMap, Collections, etc
+
+         C)java.io-Contains input and output operations
+
+         D)java.sql-Database Connectivity
+
+         E)javax.swing- Provides GUI components
+
+   2) User-Defined Packages
+
+      We have to created our own packages like
+
+      MyPackage/MyClass.java
+
+      Test.java
+
+* Access Modifier
+
+   1) public: Accessible from anywhere in the program
+
+   2) private: Accessible only within the same class
+
+   3) protected: Accessible within the same package and subclasses 
+
+   4) default: Also called "package-private," meaning accessible only 
+               within the same package
+
+* Importing Packages and Classpath
+
+   1)Importing Packages
+
+     import java.util.Arraylist;
+     
+     import java.util.*;
+
+     import static java.lang.Math.PI;
+     System.out.println(PI);
+
+  2)Setting Classpath
+
+    javac -cp /path/to/package MyProgram.java
+    java -cp /path/to/package MyProgram
+
+
+12) Exception Handling
+
+    When any abnormal condition occurs then we use exception handling
+
+    Types of exception are:
+
+      1)Checked
+        
+        These exception are checked at compile-time
+        Compiler ensures they are either handled using try-catch or throws
+        Example - IOException, SQLException, ClassNotFoundException, FileNotFoundRxception
+
+      2)Unchecked
+
+        These exceptions occur at runtime and are not checked at compile-time
+        Example - ArthmeticException, NullPointterException, ArrayIndexOutofBoundsException
+
+* How to Handle the Exception
+
+   1) Try
+    
+      Code that may throw an exception is placed inside a try block
+      
+   2) Catch
+      
+      The Catch block handles the exception
+
+   3) Finally
+  
+      The finally block always executes whether an exception occurs or not
+
+   4) Throw
+
+      Use to throw an exception
+
+   5) Throws
+
+      Used to declare exception that a method may throw
+
+* Custom Exception Classes
+
+  Used when built-in exception do not fit a specific scenario
+  Extend the exception class for checked exception
+  Extend the Runtime Exception for unchecked exception
+
+
+13) Multithreading
+
+* Introduction to Threads
+
+  Thread is a light wight process, the smallest unit of processing
+
+* Multi-Threading
+
+  More than one thread are perform in a single program
+
+* Thread Life Cycle
+
+  1)New - when object is created
+
+  2)Runnable - start()
+
+  3)Running - run()
+
+  4)Blocked - suspend()=>resume(), sleep(), wait()=>notify()
+
+  5)Dead - stop()
+
+* Synchronization and Inter-thread Communication
+
+  1)Synchronization
+
+    It is a process of controlling multiple threads access to shared resources
+
+    Types of Synchronization
+
+       A) Synchronized Method - to lock entire method, ensure one thread 
+                                executes the method at a time
+
+       B) Synchronized Block - we synchronize only a block of code
+
+       C) Static Synchronization - If multiple threads try to access a static method, 
+                                   we use class-level synchronization.
+
+   2)Inter-Thread Communication
+
+     It allows to talk to each other using wait(), notify(), notifyAll()
+
+ 
+14) File Handling
+
+* Introduction to File I/O in java
+
+  Java provides tool for handling file input and output operation through
+  the java.io package.
+  It has 2 types 
+   
+   1)Byte Stream: per bytes
+
+     In these there are 2 types A)FileInputStream   C)ObjectInputStream
+				B)FileOutputStream  D)ObjectOutputStream
+
+   2)Character Stream: per char
+
+    In these there are 2 types A)Reader   B)Writer
+
+
+   1)FileReader
+
+     Reads characters from the file
+
+   2)FileWriter
+
+     Writes characters to the file
+
+   3)BufferedReader
+
+     Reads text efficiently using buffering
+
+   4)BufferedWriter
+
+     Writes text efficiently using buffering
+
+   5)ObjectInputStream
+
+     Deserializes objects from a file
+
+   6)ObjectOutputStream
+
+     Serializes objects to a file
+
+* Serialization and Deserialization
+
+   A)Serialization
+
+     Converting object into byte stream so that it can be stored
+
+   B)Deserialization
+
+     Converting object from byte stream
+
+
+15) Collection Framework
+
+* Introduction to Collection Framework
+
+  It is set of interface, classes and method that provide a unified way to 
+  store, manipulate and retrieve groups of object efficiently
+
+    1) List 
+
+       It is an ordered collection that allows duplicates element
+       Example - Arraylist and LinkedList
+
+    2) Set
+
+       It is an unordered collection that do not allow duplicate element
+       Example - HashSet 
+
+    3) Map
+
+       It stores key-value pairs, where key are unique but values can be duplicated
+       Example - HashMap and TreeMap
+
+    4) Queue
+
+       It follows the FIFO (First In First Out) principle
+       Example - LinkedList
+       It uses push, pop, peek
+
+    5) ArrayList
+
+       It is a ordered collection with duplicates allowed and allows fast random 
+       access but slow insert and delete 
+       It uses add, remove
+
+    6) LinkedList
+
+       It is a data structure that stores element in sequence where each element contains
+       reference to next element and allows insert and delete fast but slow for random 
+       access
+       It uses add, remove, addfirst, addlast
+
+    7) HashSet
+
+       It is unordered collection with no duplicates allowed
+       It uses add, remove, contains 
+
+    8) TreeSet
+
+       It is ordered collection and does not allow duplicates
+       It uses add, remove, contains
+
+    9) HashMap
+
+       It stores key-value pairs, key is unique and value can be duplicated
+       It uses put, remove, get, replace
+
+   10) TreeMap
+
+       It stores key-value pairs in sorted order
+       It uses put, remove, get, replace 
+
+   11) Iterator
+
+       It used to traverse elements forward in a collection one by one
+       It supports hashNext(), next() and remove()
+
+   12) ListIterator
+
+       It used to traverse a list in both directions forward and backward
+       It supports pervious() and set()
+
+
+16) Java Input/Output
+
+* Stream in Java
+ 
+  Stream are used to perform input and output operations
+  
+  There are 2 types of stream 
+
+    1) Byte Stream
+
+       Used for handling Binary Data
+
+       There are 2 ways 
+
+         A) Input Stream
+              
+            It is used for reading data
+
+         B) Output Stream
+
+            It is used for writing data
+
+    2) Character Stream
+
+       Used for handling Text Data
+
+       There are 2 ways
+
+         A) Reader
+
+            It is used for reading data
+
+         B) Writer
+
+            It is used for writing data
+
+* Handling File I/O Operations
+
+  There are several ways to handle operation
+
+   1) File - file and directory paths
+
+   2) File Input/Out Stream - reading and writing
+
+   3) File Reader/Writer - reading and writing
+
+   4) Buffered Input/Output Stream - it uses buffering
+
+   5) Buffered Reader/Writer - reading and writing
